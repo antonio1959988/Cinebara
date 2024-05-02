@@ -4,7 +4,7 @@ export default function Header() {
         <>
 
             <div className="text-center">
-                <img src="https://www.filmin.es/assets/img/instances/es/subscribe/custom-highlighted-background-image-mobile.jpg?v=2024-03-26" className="absolute z-0" />
+                <img src="https://www.filmin.es/assets/img/instances/es/subscribe/custom-highlighted-background-image-mobile.jpg?v=2024-03-26" className="absolute w-full z-0" />
                 <div className="relative space-y-5 z-10 px-5">
                     <div className="text-4xl pb-2 pt-4  font-extrabold">
                         Hemos venido a servir cine
