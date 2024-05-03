@@ -65,7 +65,7 @@ export default function ScrollContent({movies, title} : ScrollContentType) {
       <div className="slider-container">
       <Slider {...settings}>
 
-        {movies.map(movie => <img key={movie.id} src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} className='max-w-[200px]'/>)}
+        {movies.map(movie => <img key={movie.id} src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} className='max-w-[200px] px-2'/>)}
       </Slider>
     </div>
 
