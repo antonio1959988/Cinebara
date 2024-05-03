@@ -4,7 +4,7 @@ export default function Header() {
     <>
         <div className="flex text-xl text-white  flex-row justify-between p-5">
             <div className="">
-                logo
+                {/* logo */}
             </div>
         <ul className=" justify-center gap-10   hidden sm:flex sm:flex-row">
             <li>Inicio</li>
@@ -13,7 +13,7 @@ export default function Header() {
             <li>Generos</li>
         </ul>
         <div className="">
-            buscq
+           {/* Busqueda */}
         </div>
         </div>
     </>

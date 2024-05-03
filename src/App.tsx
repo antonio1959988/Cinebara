@@ -3,18 +3,20 @@
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
 import ScrollContent from "./components/ScrollContent"
-import { useEffect } from "react"
-import useMovies from "./hooks/useMovies"
+//import { useEffect } from "react"
+//import useMovies from "./hooks/useMovies"
+import { movies } from "./data"
 
 function App() {
 
-  const {movies, fetchMovies} = useMovies()
+  //const {movies, fetchMovies} = useMovies()
 
 
 
-useEffect(() => {
-  fetchMovies()
-}, [])
+
+// useEffect(() => {
+//   fetchMovies()
+// }, [])
 
 
   return (
