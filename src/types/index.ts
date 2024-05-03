@@ -8,4 +8,5 @@ export type MovieType =
         title: string
         video: boolean
         vote_count: number
+        category: number
     }

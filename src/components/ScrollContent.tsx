@@ -7,9 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 type ScrollContentType = {
   movies : MovieType[]
   title: string
+  category: number
 }
 
-export default function ScrollContent({movies, title} : ScrollContentType) {
+export default function ScrollContent({movies, title, category} : ScrollContentType) {
 
   const settings = {
     dots: true,
@@ -59,13 +60,13 @@ export default function ScrollContent({movies, title} : ScrollContentType) {
 
   return (
     <div className="relative z-10 mx-auto overflow-hidden sm:overflow-visible sm:max-w-[590px] md:max-w-[720px] lg:max-w-[980px] xl:max-w-[1400px]">
-      <h2 className="px-4 mt-8 font-semibold py-4 text-lg">{title}</h2>
+      <h2 className="px-4 mt-8 font-bold py-4 text-lg md:text-xl">{title}</h2>
     
 
       <div className="slider-container">
       <Slider {...settings}>
 
-        {movies.map(movie => <img key={movie.id} src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} className='max-w-[200px] px-2'/>)}
+        {movies.filter(movie => movie.category === category).map(movie => <img key={movie.id} src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} className='max-w-[200px] px-2'/>)}
       </Slider>
     </div>
 

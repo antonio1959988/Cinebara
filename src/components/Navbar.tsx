@@ -2,7 +2,7 @@
 export default function Header() {
   return (
     <>
-        <div className="flex text-xl text-white  flex-row justify-between p-5">
+        <div className="flex text-xl flex-row justify-between p-5">
             <div className="">
                 {/* logo */}
             </div>

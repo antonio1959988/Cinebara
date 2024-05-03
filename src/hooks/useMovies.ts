@@ -11,7 +11,8 @@ const Movie = z.array(
         release_date: z.string(),
         title: z.string(),
         video: z.boolean(),
-        vote_count: z.number()
+        vote_count: z.number(),
+        category: z.number()
     })
 )
 
@@ -27,7 +28,8 @@ export default function useMovies() {
             release_date: '',
             title: '',
             video: false,
-            vote_count: 0
+            vote_count: 0,
+            category: 0
         }
     ])
 

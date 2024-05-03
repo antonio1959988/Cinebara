@@ -23,9 +23,10 @@ function App() {
     <>
     <Navbar/>
     <Header/>
-<ScrollContent movies={movies} title="Nuestros Estrenos"/>
-<ScrollContent movies={movies} title="Recientemente Añadido"/>
-<ScrollContent movies={movies} title="Proximamente..."/>
+<ScrollContent movies={movies} title="Nuestros Estrenos" category={1}/>
+<ScrollContent movies={movies} title="Catálogo Base" category={2}/>
+<ScrollContent movies={movies} title="Animación" category={3}/>
+<ScrollContent movies={movies} title="Terror" category={4}/>
     </>
   )
 }
