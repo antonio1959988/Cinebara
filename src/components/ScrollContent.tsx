@@ -66,18 +66,19 @@ export default function ScrollContent({movies, title, category} : ScrollContentT
       <div className="slider-container">
       <Slider {...settings}>
 
-        {movies.filter(movie => movie.category === category).map(movie => <img key={movie.id} src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} className='max-w-[200px] px-2'/>)}
+        {movies.filter(movie => movie.category === category).map(movie => 
+            <a href={`https://api.whatsapp.com/send?phone=5218141247592&text=¡Hola!, Me interesa comprar ${movie.title}`} target='_blank' className='px-2 max-w-[200px] relative'>
+              <p className='absolute min-h-[238px] px-4 text-sm leading-5 py-3 hover:bg-yellow-950 z-20 text-transparent hover:text-orange-100'>
+                  <h1 className='text-base font-bold leading-5 line-clamp-2 mb-2'>{movie.title}</h1>
+                  <span className=' line-clamp-[9]'>{movie.overview}</span>
+              </p>
+              <img key={movie.id} src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} className=''/>
+              
+            </a>
+        )}
       </Slider>
     </div>
 
     </div>
   )
 }
-
-
-/*
-
-<div className="flex gap-2 justify-center overflow-x-scroll">
-        {movies.map(movie => <img key={movie.id} src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} className=' max-w-[200px]'></img>)}
-      </div>
-*/
