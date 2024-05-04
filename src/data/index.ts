@@ -663,6 +663,36 @@ export const movies: MovieType[] = [{
     category: 2
 },{
     adult: false,
+    id: 186,
+    overview: 'A Slevin la vida no le ha ido nada bien. Su casa acaba de ser declarada en ruinas y ha sorprendido a su novia en la cama con otro. En un intento por perder de vista Los Ángeles durante un tiempo, se marcha a vivir a Nueva York al apartamento de su amigo Nick Fisher. Pero dos de los peores gángsteres de la ciudad, El Rabino y El Jefe, antiguos socios y ahora enemigos irreconciliables, se cruzarán en su vida cuando uno de ellos pretenda vengar la muerte de su hijo asesinando al primogénito del otro. La idea para no desencadenar una guerra de bandas: buscar a un jugador que le deba mucho dinero al Jefe y obligarle a matar al hijo del Rabino.',
+    poster_path: '/iDxaXrWtJIZqzU0rLR8mS3kEWsC.jpg',
+    release_date: '2006-02-24',
+    title: 'Asesino a Sueldo',
+    video: false,
+    vote_count: 7,
+    category: 2
+},{
+    adult: false,
+    id: 438808,
+    overview: 'Richard Wershe Jr., un niño de 14 años, comenzó a trabajar para el FBI como un infiltrado en el mundo de las drogas durante la década de 1980. El infante comenzó a llevar una doble vida como narcotraficante a la edad de 17 años, y pasó a ser un reconocido narcotraficante, hasta que las autoridades le descubrieron y lo condenaron a cadena perpetua. Basada en una historia real.',
+    poster_path: '/amM0t95H9ep0ZUcv0rWRxlLY0D6.jpg',
+    release_date: '2018-09-14',
+    title: 'White Boy Rick',
+    video: false,
+    vote_count: 6,
+    category: 2
+},{
+    adult: false,
+    id: 438808,
+    overview: 'Richard Wershe Jr., un niño de 14 años, comenzó a trabajar para el FBI como un infiltrado en el mundo de las drogas durante la década de 1980. El infante comenzó a llevar una doble vida como narcotraficante a la edad de 17 años, y pasó a ser un reconocido narcotraficante, hasta que las autoridades le descubrieron y lo condenaron a cadena perpetua. Basada en una historia real.',
+    poster_path: '/amM0t95H9ep0ZUcv0rWRxlLY0D6.jpg',
+    release_date: '2018-09-14',
+    title: 'P',
+    video: false,
+    vote_count: 6,
+    category: 2
+},{
+    adult: false,
     id: 838240,
     overview: "DOG es un perro solitario que vive en Manhattan. Un día decide construirse un robot, un amigo. Su amistad crece, hasta hacerse inseparables, al ritmo del Nueva York de los ochenta. Una noche de verano, Dog con gran pena, se ve obligado a abandonar a ROBOT en la playa. ¿Volverán a encontrarse?",
     poster_path: '/rUPJfjfNEbANXQrmCQfurOppqrA.jpg',
@@ -1011,6 +1041,46 @@ export const movies: MovieType[] = [{
     video: false,
     vote_count: 7,
     category: 4
+},{
+    adult: false,
+    id: 101287,
+    overview: "En el pueblo de San Luis de la Paz viven Luis Antonio (Pedro Infante), José Luis (Abel Salazar) y Luis Manuel (Víctor Manuel Mendoza) García, tres primos pendencieros que únicamente entran en orden cuando su abuela, la enérgica doña Luisa (Sara García), los agarra a bastonazos. La llegada de Lupita Smith (Marga López), prima de los muchachos nacida en los Estados Unidos, desata la competencia entre ellos por conquistar a su rubia pariente. Además, una venganza familiar enfrenta a los García con los temibles primos López.",
+    poster_path: '/7otNXulR9J9RiZTlLP7aqDyUgGV.jpg',
+    release_date: '1947-08-15',
+    title: 'Los tres García',
+    video: false,
+    vote_count: 8,
+    category: 5
+},{
+    adult: false,
+    id: 30325,
+    overview: 'En tres pueblos de la huasteca potosina viven unos trillizos, que fueron separados años atrás: los hermanos Andrade. El de Tamaulipas es dueño de una cantina y padre de una niña a la que ha criado como un macho. Es ateo y pendenciero. De él se dice que es un famoso bandido. El que se estableció en San Luís Potosí es un sacerdote de mucho carácter. El que vive en Veracruz es un capitán del ejército, encargado de atrapar al "Coyote", un famoso bandido. Los enredos no se hacen esperar, debido a que las sensaciones de uno afectan a los otros dos. Además por su asombroso parecido, la gente los confunde, ya sea por accidente o intencionalmente a fin de desenmascarar al "Coyote" que hábilmente ha inculpado a uno de los Andrade.',
+    poster_path: '/ywY6JAinPvcD8RF7DQIbaGvrDot.jpg',
+    release_date: '1948-08-05',
+    title: 'Los Tres Huastecos',
+    video: false,
+    vote_count: 8,
+    category: 5
+},{
+    adult: false,
+    id: 71655,
+    overview: "El vago Luis Alberto llega a la mansión de los Valverde en busca de un teléfono y termina contratado como chofer por doña Emilia, quien tiene la manía de proteger a los vagabundos. Luis Alberto conoce a las hijas del matrimonio: la bella y altiva Susi y la joven y alegre Lala. En poco tiempo, José Antonio se enamora de Susi, quien lo considera un patán... muy atractivo.",
+    poster_path: '/7otWg5TK4MLBoRL5b1MNWL9cNcD.jpg',
+    release_date: '1955-01-27',
+    title: 'Escuela de vagabundos',
+    video: false,
+    vote_count: 8,
+    category: 5
+},{
+    adult: false,
+    id: 335022,
+    overview: "Dos rancheros inventan una historia de mentiras para poder obtener dinero y seguir con su vida bohemia.",
+    poster_path: '/jRQI0hJc6pDykHQ9CNASDDhIClZ.jpg',
+    release_date: '2023-04-12',
+    title: 'Jorge negrete: Tal para cual',
+    video: false,
+    vote_count: 5,
+    category: 5
 },
 
 ]

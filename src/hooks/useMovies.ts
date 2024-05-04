@@ -1,6 +1,8 @@
 import axios from "axios";
 import { z } from 'zod'
 import { useState } from "react";
+import { movies as data } from "../data";
+import { MovieType } from "../types";
 
 const Movie = z.array(
     z.object({
@@ -33,6 +35,8 @@ export default function useMovies() {
         }
     ])
 
+    const [results, setResults] = useState<MovieType[]>([])
+
     const fetchMovies = async() => {
         const api_key = import.meta.env.VITE_API_KEY
         try {
@@ -54,10 +58,20 @@ export default function useMovies() {
         }
     }
 
+    const searchMovies = (search: string) => {
+
+        const filteredData = data.filter(item =>
+            item.title.toLowerCase().includes(search.toLowerCase())
+          );
+     setResults(filteredData)
+    }
+
 
 
     return{
         movies,
-        fetchMovies
+        fetchMovies,
+        searchMovies,
+        results
     }
 }
