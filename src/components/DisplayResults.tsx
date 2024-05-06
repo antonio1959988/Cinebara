@@ -13,7 +13,7 @@ export default function DisplayResults({movies, title} : DisplayResultsType) {
 
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: movies.length > 1 ?? false,
     speed: 500,
     slidesToShow: 8,
     slidesToScroll: 8,
