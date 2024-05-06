@@ -1,13 +1,9 @@
-
-
-import { useEffect } from "react"
 import Header from "./components/Header"
 //import Navbar from "./components/Navbar"
 import ScrollContent from "./components/ScrollContent"
 //import { useEffect } from "react"
 //import useMovies from "./hooks/useMovies"
 import { movies } from "./data"
-import useMovies from "./hooks/useMovies"
 
 function App() {
 

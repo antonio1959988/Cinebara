@@ -1,7 +1,6 @@
 import { ChangeEvent } from "react"
 import { movies } from "../data"
 import useMovies from "../hooks/useMovies"
-import ScrollContent from "./ScrollContent"
 import DisplayResults from "./DisplayResults"
 export default function Header() {
 
