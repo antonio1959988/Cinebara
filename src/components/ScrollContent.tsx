@@ -67,7 +67,7 @@ export default function ScrollContent({movies, title, category} : ScrollContentT
       <Slider {...settings}>
 
         {movies.filter(movie => movie.category === category).map(movie => 
-            <a href={`https://api.whatsapp.com/send?phone=5218141247592&text=¡Hola!, Me interesa comprar ${movie.title}`} target='_blank' className='px-2 max-w-[200px] relative'>
+            <a href={`/pelicula/${movie.id}`} target='_self' className='px-2 max-w-[200px] relative'>
               <p className='absolute min-h-[238px] hover:bg-opacity-80  max-w-[160px] px-4 text-sm leading-5 py-3 hover:bg-yellow-950 transition duration-300 z-20 text-transparent hover:text-orange-100'>
                   <h1 className='text-base font-bold leading-5 line-clamp-2 mb-2'>{movie.title}</h1>
                   <span className=' line-clamp-[8]'>{movie.overview}</span>

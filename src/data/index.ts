@@ -683,16 +683,6 @@ export const movies: MovieType[] = [{
     category: 2
 },{
     adult: false,
-    id: 438808,
-    overview: 'Richard Wershe Jr., un niño de 14 años, comenzó a trabajar para el FBI como un infiltrado en el mundo de las drogas durante la década de 1980. El infante comenzó a llevar una doble vida como narcotraficante a la edad de 17 años, y pasó a ser un reconocido narcotraficante, hasta que las autoridades le descubrieron y lo condenaron a cadena perpetua. Basada en una historia real.',
-    poster_path: '/amM0t95H9ep0ZUcv0rWRxlLY0D6.jpg',
-    release_date: '2018-09-14',
-    title: 'P',
-    video: false,
-    vote_count: 6,
-    category: 2
-},{
-    adult: false,
     id: 838240,
     overview: "DOG es un perro solitario que vive en Manhattan. Un día decide construirse un robot, un amigo. Su amistad crece, hasta hacerse inseparables, al ritmo del Nueva York de los ochenta. Una noche de verano, Dog con gran pena, se ve obligado a abandonar a ROBOT en la playa. ¿Volverán a encontrarse?",
     poster_path: '/rUPJfjfNEbANXQrmCQfurOppqrA.jpg',

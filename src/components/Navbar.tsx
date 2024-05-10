@@ -1,7 +1,7 @@
 
 export default function Header() {
   return (
-    <>
+    <nav className="absolute z-50 bg-orange-100 w-full">
         <div className="flex text-xl flex-row justify-between p-5">
             <div className="">
                 {/* logo */}
@@ -16,6 +16,6 @@ export default function Header() {
            {/* Busqueda */}
         </div>
         </div>
-    </>
+    </nav>
   )
 }
