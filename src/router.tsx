@@ -30,7 +30,7 @@ function App() {
             <IndexPage />
           </Suspense>
           } index />
-          <Route path='/pelicula/:id' element={
+          <Route path='/pelicula' element={
             <Suspense fallback={<Spinner/>}>
               <DetailPage />
             </Suspense>
