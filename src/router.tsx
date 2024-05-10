@@ -4,12 +4,11 @@
 //import useMovies from "./hooks/useMovies"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Layout from "./layouts/Layout"
-import { Suspense, lazy } from "react"
-import Spinner from "./components/Spinner/Spinner"
+import IndexPage from "./views/IndexPage"
+import DetailPage from "./views/DetailPage"
 
 // Performance
-const IndexPage = lazy(() => import("./views/IndexPage"))
-const DetailPage = lazy(() => import("./views/DetailPage"))
+
 
 function App() {
 
@@ -26,14 +25,10 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path='/' element={
-            <Suspense fallback={<Spinner/>}>
             <IndexPage />
-          </Suspense>
           } index />
           <Route path='/pelicula' element={
-            <Suspense fallback={<Spinner/>}>
               <DetailPage />
-            </Suspense>
           } />
         </Route>
       </Routes>
